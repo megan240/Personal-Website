@@ -1,45 +1,70 @@
 :root {
-    --green: #00FF00;
-    --white: #FFFFFF;
-    --black: #000000;
+  --white: #ffffff;
+  --black: #000000;
+  --beige: #f5f5dc;
+  --aquamarine: #7fffd4;
+  --azure: #f0ffff;
+  --darkseagreen: #8fbc8f;
+  --lavender: #e6e6fa;
+  --lavendarblush: #fff0f5;
+  --tan: #d2b48c;
+  --slategrey: #708090;
+  --rosybrown: #bc8f8f;
 }
 
 body {
-    background: var(--bg);
-    color: var(--fontColor);
-    font-family: monospace;
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: monospace;
 }
 
 li {
-    list-style: circle;
+  list-style: circle;
 }
 
 .list {
-    list-style: square;
+  list-style: square;
+}
+
+h2 {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .light-theme {
-    --bg: var(--white);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+  --bg: var(--white);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
 }
 
 .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
+  --bg: var(--black);
+  --fontColor: var(--beige);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
 }
 
 .btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+  position: absolute;
+  top: 60px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+.first_div_button {
+    background-color: #bc8f8f;
+    width: 600px;
+    height: 400px;
+}
+
+.second_div_button {
+    background-color: #d2b48c;
+    width: 400px;
+    height: 250px;
 }
