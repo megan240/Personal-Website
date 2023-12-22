@@ -1,45 +1,150 @@
 :root {
-    --green: #00FF00;
-    --white: #FFFFFF;
-    --black: #000000;
+  --white: #ffffff;
+  --black: #000000;
+  --beige: #f5f5dc;
+  --aquamarine: #7fffd4;
+  --azure: #f0ffff;
+  --darkseagreen: #8fbc8f;
+  --lavender: #e6e6fa;
+  --lavendarblush: #fff0f5;
+  --tan: #d2b48c;
+  --slategrey: #708090;
+  --rosybrown: #bc8f8f;
 }
 
 body {
-    background: var(--bg);
-    color: var(--fontColor);
-    font-family: monospace;
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: monospace;
+  /* background-color:#fff0f5; */
+  /* background-color: #2f3035; */
+  background-color: #ECE6E3;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
 }
 
 li {
-    list-style: circle;
+  list-style: circle;
 }
 
 .list {
-    list-style: square;
+  list-style: square;
+}
+
+h2 {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .light-theme {
-    --bg: var(--white);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+  --bg: var(--white);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
 }
 
 .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
+  --bg: var(--black);
+  --fontColor: var(--beige);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
 }
 
 .btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+  position: absolute;
+  top: 60px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+.first_div_button {
+  background-color: #bc8f8f;
+  width: 600px;
+  height: 400px;
+}
+
+.instead_first_div {
+  background-color: #8fbc8f;
+  width: 400px;
+  height: 200px;
+}
+
+.second_div_button {
+  background-color: #d2b48c;
+  width: 400px;
+  height: 250px;
+}
+
+.container {
+  /* Center */
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1024px;
+}
+
+header {
+  /* background-color: #708090; */
+  background-color: #CEBFB6;
+  height: 118px;
+  display: flex;
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.CS_image {
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+nav {
+  /* background-color: #8fbc8f; */
+  background-color: #C1B1A6;
+  height: 40px;
+}
+
+main {
+  /* background-color: #bc8f8f; */
+  /* background-color: #9AA0A3; */
+  background-color: #A39193;
+  height: 500px;
+  /* flex-wrap: auto; */
+  display: flex;
+}
+
+.megan_bowers_img {
+  width: 325px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.main_text {
+  /* margin-left: 10%; */
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+footer {
+  /* background-color: #d2b48c; */
+  /* background-color: #8D988D; */
+  background-color: #66545E;
+  height: 118px;
 }
